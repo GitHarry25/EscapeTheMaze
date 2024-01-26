@@ -9,9 +9,9 @@
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 1 ) ],
+"frames": [ ExtResource( 6 ) ],
 "loop": true,
-"name": "StraightIdle",
+"name": "Up",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 3 ) ],
@@ -29,9 +29,9 @@ animations = [ {
 "name": "Right",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 6 ) ],
+"frames": [ ExtResource( 1 ) ],
 "loop": true,
-"name": "Up",
+"name": "StraightIdle",
 "speed": 5.0
 } ]
 
