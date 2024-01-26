@@ -1,0 +1,47 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Resources/Misc/Minecraft.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://Scripts/HUD.gd" type="Script" id=2]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.0823529, 1, 0.227451, 1 )
+border_blend = true
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 1 )
+
+[node name="HUD" type="Control"]
+margin_left = -30.1484
+margin_top = -20.3926
+margin_right = 9.85157
+margin_bottom = 19.6074
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Panel" type="Panel" parent="."]
+visible = false
+margin_left = 1.0
+margin_right = 36.0
+margin_bottom = 38.0
+rect_scale = Vector2( 7.82991, 2.39226 )
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+anchor_top = 4.76837e-08
+anchor_bottom = 4.76837e-08
+margin_left = 41.0
+margin_top = 26.0
+margin_right = 153.0
+margin_bottom = 63.0
+rect_scale = Vector2( 1.8, 1.8 )
+custom_fonts/font = SubResource( 2 )
+text = "SCORE:"
+__meta__ = {
+"_edit_use_anchors_": false
+}
