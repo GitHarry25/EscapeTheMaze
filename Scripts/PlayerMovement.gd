@@ -1,6 +1,6 @@
 extends KinematicBody2D
 
-var speed = 400 # player speed
+var speed = 300 # player speed
 onready var animation = $Sprite # For easier referencing
 
 var velocity = Vector2()

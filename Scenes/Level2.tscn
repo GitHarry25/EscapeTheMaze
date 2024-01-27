@@ -188,7 +188,7 @@ position = Vector2( 1271.73, 736.25 )
 shape = SubResource( 5 )
 
 [node name="Enemy" parent="." instance=ExtResource( 9 )]
-position = Vector2( 96.1643, 729.6 )
+position = Vector2( 96.1643, 478.169 )
 
 [node name="Enemy2" parent="." instance=ExtResource( 9 )]
 position = Vector2( 991.889, 474.801 )
